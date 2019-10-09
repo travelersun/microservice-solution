@@ -89,9 +89,9 @@ https://github.com/travelersun/tianzhu-core
 
 ## 功能截图
 
+![1](https://github.com/travelersun/microservice-solution/blob/master/image/57.png)
 
-
-
+![2](image/57.png)
 
 
 
