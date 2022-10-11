@@ -13,7 +13,7 @@ platform,以开发者为中心，打造企业快速开发平台,所有组件全�
 前后端交互使用access_token认证模式，与后端微服务之间的认证token权限相同
 
 
-- 应用基础框架platform后台,采用spring cloud,spring security Oauth2，作为资源服务器与授权服务器分离
+- 应用基础框架platform后台,采用spring cloud,spring security Oauth2，作为无状态资源服务器与授权服务器分离
 IAM资源管理权限管理接入MaxKey（每个注册应用都独立一套资源，角色可应用使用前提是分配跟目标应用访问权限），
 权限控制路径权限过滤基于RBAC，支持spring security注解表达式
 自定义权限注解分级鉴权，基于从授权服务器获取的资源权限码（缓存权限码基于loading cache或redis），采用AOP拦截Bean方法
